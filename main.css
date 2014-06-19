@@ -1,0 +1,66 @@
+
+#main {
+	background-color: gray;
+}
+
+.top-banner {
+	display: table;
+	height: 200px;
+	width: 800px;
+	background-color: LimeGreen;
+}
+
+.top-column {
+	display: table-cell;
+	text-align: left;
+	vertical-align: bottom;
+	color: white;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	font-size: 20pt;
+}
+
+#top-banner-bottom {
+	height: 10px;
+	width: 800px;
+	background-color: green;
+
+}
+
+.nav-bar {
+	height: 50px;
+	width: 800px;
+	background-color: black;
+	color: white;
+}
+
+.nav-list {
+	margin: 0;
+}
+
+.nav-item {
+	display: inline-block;
+	float: right;
+	line-height: 50px;
+	vertical-align: middle;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.page-container {
+	background-color: white;
+	width: 800px;
+}
+
+.article-title {
+	font-size: 20pt;
+	font-weight: bold;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 20px;
+}
+
+.article-body {
+	padding-left: 40px;
+	padding-right: 40px;
+}
