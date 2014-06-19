@@ -47,6 +47,10 @@
 	padding-right: 20px;
 }
 
+.nav-item:hover {
+	background-color: Crimson;
+}
+
 .page-container {
 	background-color: white;
 	width: 800px;
@@ -55,12 +59,83 @@
 .article-title {
 	font-size: 20pt;
 	font-weight: bold;
-	padding-top: 40px;
-	padding-bottom: 40px;
-	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
 }
 
-.article-body {
-	padding-left: 40px;
-	padding-right: 40px;
+.section-title {
+	font-size: 16pt;
+	padding-left: 15px;
+	padding-bottom: 8px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: gray;
 }
+
+.section-margins {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 40px;
+}
+
+.page-padding-body {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.section-table {
+	display: table;
+	margin: 0 auto;
+	border-color: gray;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.cell-table {
+	display: table-cell;
+	text-align: left;
+	padding: 15px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: gray;
+	vertical-align: middle;
+}
+
+.row-table {
+	display: table-row;
+	text-align: left;
+}
+
+.title-bar-table {
+	background-color: DarkGray;
+	font-weight: bold;
+}
+
+.button-table {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	background-color: CornflowerBlue;
+	color: white;
+}
+
+.button-table:hover {
+	background-color: Crimson;
+}
+
+.highlight-text {
+	background-color: DarkGray;
+	padding-left: 30px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.placeholder-image {
+	background-color: BurlyWood;
+	vertical-align: middle;
+	text-align: center;
+	height: 100px;
+}
+
