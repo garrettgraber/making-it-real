@@ -7,6 +7,7 @@ body {
 
 #main {
 	position: relative;
+	background-color: #ecf0f1;
 	width: 560px;
 	margin: auto;
 }
@@ -15,7 +16,7 @@ body {
 	width: 220px;
 	position: absolute;
 	right: -230px;
-	top: 260px;
+	top: 256px;
 }
 
 .side-box {
@@ -214,6 +215,7 @@ body {
 
 .comment-container {
 	margin-top: 50px;
+	padding-bottom: 50px;
 }
 
 .comment-title {
@@ -224,6 +226,7 @@ body {
 }
 
 .comment-sub-title {
+	padding-left: 30px;
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
@@ -232,6 +235,10 @@ body {
 	text-align: right;
 	padding-bottom: 5px;
 	padding-top: 5px;
+}
+
+.input-tag {
+	width: 70%;
 }
 
 .comment-submit {
@@ -253,5 +260,61 @@ body {
 }
 
 .comment-submit:hover {
-	background-color: blue;
+	background-color: CornflowerBlue;
 }
+
+.comment-box {
+	padding-top: 15px;
+	padding-bottom: 10px;
+	/* margin-top: 10px; */
+
+}
+
+.comment-icon {
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	background-color: #2ecc71;
+}
+
+.comment-info {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.comment-username {
+	display:block;
+	padding-left: 15px;
+	padding-top: 4px;
+	padding-bottom: 3px;
+}
+
+.comment-time {
+	display:block;
+	padding-left: 15px;
+	padding-top: 4px;
+	padding-bottom: 3px;
+}
+
+.comment-text {
+	display: block;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-top: 12px;
+	/*  padding-bottom: 12px; */
+}
+
+.comment-sub {
+	margin-left: 25px;
+	padding-left: 10px;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: pink;
+}
+
+
+
+
+
+
+
