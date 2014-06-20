@@ -2,6 +2,7 @@
 
 body {
 	background-color: gray;
+
 }
 
 #main {
@@ -11,7 +12,6 @@ body {
 }
 
 .side-box-wrapper {
-
 	width: 220px;
 	position: absolute;
 	right: -230px;
@@ -19,7 +19,6 @@ body {
 }
 
 .side-box {
-
 	width: 170px;
 	height: 250px;
 	background-color: white;
@@ -31,7 +30,6 @@ body {
 	font-weight: bold;
 	padding-left: 10px;
 	margin-top: 15px;
-
 }
 
 .side-nav-list {
@@ -187,9 +185,73 @@ body {
 }
 
 .placeholder-image {
+	display:table;
 	background-color: BurlyWood;
-	vertical-align: middle;
 	text-align: center;
 	height: 100px;
+	width: 100%;
 }
 
+.placeholder-image-cell {
+	display:table-cell;
+	vertical-align: middle;
+}
+
+.page-list-item {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.floaty-text {
+	float:left;
+	display: inline;
+}
+
+.numbered-list {
+	font-weight: bold;
+	display: inline-block;
+}
+
+.comment-container {
+	margin-top: 50px;
+}
+
+.comment-title {
+	font-size: 16pt;
+	font-weight: bold;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.comment-sub-title {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.input-info {
+	text-align: right;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.comment-submit {
+	display: table;
+	width: 100%;
+	height: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: white;
+	background-color: Crimson;
+	text-align: center;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.comment-submit-cell {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.comment-submit:hover {
+	background-color: blue;
+}
